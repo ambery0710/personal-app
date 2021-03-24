@@ -9,11 +9,11 @@ import styles from './App.module.less';
 function App() {
     return (
         <BrowserRouter>
-            <Menu className={styles.menu} theme="dark">
-                <Menu.Item><NavLink to="/">Home</NavLink></Menu.Item>
-                <Menu.Item><NavLink to="/login">Login</NavLink></Menu.Item>
-                <Menu.Item><NavLink to="/register">Register</NavLink></Menu.Item>
-            </Menu>
+            {/*<Menu className={styles.menu} theme="dark">*/}
+            {/*    <Menu.Item><NavLink to="/">Home</NavLink></Menu.Item>*/}
+            {/*    <Menu.Item><NavLink to="/login">Login</NavLink></Menu.Item>*/}
+            {/*    <Menu.Item><NavLink to="/register">Register</NavLink></Menu.Item>*/}
+            {/*</Menu>*/}
             <Router></Router>
         </BrowserRouter>
   );
