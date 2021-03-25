@@ -1,0 +1,40 @@
+@import '~antd/es/style/themes/default.less';
+
+.registerContainer {
+    background-image: url('https://pic.52112.com/180710/JPG-180710_324/iuuKMQ2MBR_small.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100%;
+
+    .register {
+        padding-top: 200px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .login {
+        float:right;
+    }
+}
+
+.success,
+.warning,
+.error{
+    transition: color 0.3;
+}
+.success{
+    color: @success-color
+}
+.warning {
+    color: @warning-color
+}
+.error {
+    color: @error-color
+}
+.progress-pass >.progress {
+    :global {
+        .ant-progress-bg {
+            background-color: @warning-color;
+        }
+    }
+}

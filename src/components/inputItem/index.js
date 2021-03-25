@@ -24,8 +24,8 @@ const InputItem = (props) => {
                 })
             }, 1000);
         }
-        return () => clearInterval(interval); 
-    }, [timing])
+        return () => clearInterval(interval);
+    }, [timing, props.countDown])
 
     if (name === 'captcha') {
         return (
